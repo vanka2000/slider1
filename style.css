@@ -1,0 +1,61 @@
+
+.wrapper{
+    position: relative;
+    width: 70vw;
+    margin: 0 auto;
+}
+section{
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    overflow-x: scroll;
+    display: flex;
+    position: relative;
+}
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.image_card{
+    background-size: cover;
+    min-width: 100%;
+    height: 100%;
+}
+.btn_left{
+width: 50%;
+height: 40px;
+position: absolute;
+left: 0;
+border-radius: 20px;
+border: 0;
+background: red;
+}
+.btn_right{
+    width: 50%;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    border-radius: 20px;
+    border: 0;
+    background: green;
+}
+.nav{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.dote{
+    border: 3px solid gray;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.dote:hover{
+    background: gray;
+}
+.dote_active{
+    background-color: palevioletred;
+}
